@@ -18,7 +18,7 @@ const NavBar = (props) => {
   return (
     <div>
       <Navbar color='warning' light expand='md'>
-        <NavbarBrand href='/'>Health-Care-Api-Dashboard</NavbarBrand>
+        <NavbarBrand href='/'>Health-Check-Api-Dashboard</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className='mr-auto' navbar>
